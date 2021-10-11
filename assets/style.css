@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: darkgoldenrod
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: darkgreen;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    margin: 35px 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.question {
+    display: none;
+}
+
+.stats {
+    display: none;
+}
+
+.answer-One {
+    grid-row:auto
+
+}
+
+#timer {
+    color: red;
+}

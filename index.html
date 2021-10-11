@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Reggae Quiz</title>
+</head>
+<body>
+    <header>
+        <h3>
+            High Scores
+        </h3>
+        
+    </header>
+<!-- timer -->
+    <div id="timer">
+        
+    </div>
+    
+    <script>
+      
+    </script>
+    <!-- start screen -->
+    <div id="start">
+        <h1>Reggae Quiz</h1>
+        <button id="start_btn" >Start Quiz</button>
+    </div>
+
+    <!-- questions -->
+    <div id="question1" class="question">
+        <h1>When is Bob Marley's Birthday?</h1>
+        <ul>
+            <li class="answer"><button class="answer" data-correct="yes">February 6th</button></li>
+            <li><button id="wrongAnswer" class="wrongAnswer" data-correct="no">October 17th</button></li>
+            <li><button id="wrongAnswer0" class="wrongAnswer" data-correct="no">December 25th</button></li>
+            <li><button id="wrongAnswer1" class="wrongAnswer" data-correct="no">November 5th</button></li>
+        </ul>
+    </div>
+    <div id="question2" class="question">
+        <h1>When were the Wailers formed?</h1>
+        <ul>
+            <li><button id="wrongAnswer2" class="wrongAnswer" data-correct="no">1971</button></li>
+            <li><button id="wrongAnswer3" class="wrongAnswer" data-correct="no">1968</button></li>
+            <li><button class="answer" data-correct="yes">1963</button></li>
+            <li><button id="wrongAnswer4" class="wrongAnswer" data-correct="no">1965</button></li>
+        </ul>
+    </div>
+    <div id="question3" class="question">
+        <h1>Who are the other two main members of the wailers besides Bob Marley?</h1>
+        <ul>
+            <li><button id="wrongAnswer5" class="wrongAnswer" data-correct="no">Jacob Miller and Yellowman</button></li>
+            <li><button class="answer" data-correct="yes">Bunny Livingston and Peter Tosh</button></li>
+            <li><button id="wrongAnswer6" class="wrongAnswer" data-correct="no">Barrington Levy and Gregory Isaacs</button></li>
+            <li><button id="wrongAnswer7" class="wrongAnswer" data-correct="no">Junior Murvin and Eek-A-Mouse</button></li>
+        </ul>
+    </div>
+    <div id="question4" class="question">
+        <h1>Where in Jamaica was Reggae Invented?</h1>
+        <ul>
+            <li><button id="wrongAnswer8" class="wrongAnswer" data-correct="no">Montego Bay</button></li>
+            <li><button class="answer" data-correct="yes">Kingston</button></li>
+            <li><button id="wrongAnswer9" class="wrongAnswer" data-correct="no">Ocho Rios</button></li>
+            <li><button id="wrongAnswer10" class="wrongAnswer" data-correct="no">Old Harbour</button></li>
+        </ul>
+    </div>
+    <div id="question5" class="question">
+        <h1>When is Reggae month?</h1>
+        <ul>
+            <li><button id="wrongAnswer11" class="wrongAnswer" data-correct="no">October</button></li>
+            <li><button id="wrongAnswer12" class="wrongAnswer" data-correct="no">April</button></li>
+            <li><button id="wrongAnswer13" class="wrongAnswer" data-correct="no">March</button></li>
+            <li><button class="answer" data-correct="yes">February</button></li>
+        </ul>
+    </div>
+    <!-- info screen -->
+    <div id="info" class="stats">
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <br>
+        <label for="score">Score: </label>
+        <input type="text" id="score">
+        <br>
+        <button id="button">Save</button>
+    </div>
+    <script src="./assets/script.js" type="text/javascript"></script>
+</body>
+</html>
